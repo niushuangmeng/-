@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册页面</title>
+<style type="text/css">
+*{ margin:0px auto; padding:0px;
+font-family:微软雅黑;
+font-size:16px;}
+#info{
+		background-color:#EBE9E9
+
+}
+#title{
+	width:1200px;
+	border-bottom:1px solid #000
+}
+#text{
+	font-size:24px;
+	color:#01c299;
+	margin:30px 0 25px;
+	
+}
+#box{
+	width:800px
+}
+#xian{
+	height: 10px;
+    background: #01c299;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#span{
+	width100%; 
+	padding-left:20px;
+	line-height:50px; height:50px
+}
+#i-box{
+	padding:20px;
+	padding-top:0px;
+}
+.text{
+	float:left;
+	width:25%;
+	padding-top:10px;
+	
+}
+.text span{
+	float:right;
+	text-align:right
+}
+.item{
+	width:100%; height:40px;
+	margin-bottom:15px;
+}
+.input{	width:50%; height:40px;
+	padding-left:20px;
+
+}
+.input input{
+	width:100%; height:40px;
+	padding-left:20px;
+	
+}
+#kong{
+	width:80%;
+	height:50px;
+	border-bottom:1px dashed #CCCCCC;
+	text-align:center; vertical-align:middle; line-height:50px
+}
+#submmit{
+	width:200px; height:40px;
+	background-color:#69F;
+	border-radius:5px;
+	color:#FFF;
+	text-align:center; vertical-align:middle; line-height:40px;
+	margin-top:10px
+}
+#code{
+	float:left;
+	width:200px; height:40px;
+	text-align:center; margin:5px
+}
+</style>
+</head>
+
+<body>
+<div id="title">
+	<div id="logo">
+		<img src="../image/timg-(8).jpg" style="width:157px;height:104px" />
+    </div>
+</div>
+<div id="box">
+    <div id="text">
+    	请注册
+    </div>
+    <div id="xian"></div>
+    <div id="info">
+    	<div id="span">
+    		请根据提示填写以下信息：
+        </div>
+        <div id="i-box">
+        	<div class="item">
+                <div class="text"><span>邮箱</span></div>
+                <div class="input"><input type="text" name="email" /></div>
+            </div>
+            <div class="item">
+                <div class="text"><span>密码</span></div>
+                <div class="input"><input type="password" name="password" /></div>
+            </div>
+            <div class="item">
+                <div class="text"><span>确认密码</span></div>
+                <div class="input"><input type="password" name="password" /></div>
+            </div>
+            <div class="item">
+                <div class="text"><span>验证码</span></div>
+                <div class="input" style="width:180px;float:left"><input type="text" name="code" /></div>
+                <div id="code"><input type="button" value="获取手机验证码" name="code" /></div>
+            </div>
+            <div id="kong">
+            	<input type="checkbox" name="confirm" />
+            	阅读并接受《用户协议》及《隐私权保护声明》
+            </div>
+            <div id="submmit">提交</div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

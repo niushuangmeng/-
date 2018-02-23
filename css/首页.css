@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------头开始-------------------*/
+*{
+	margin:0px auto; padding:0px; 
+	font-family:微软雅黑; font-size:12px;
+	
+}
+#head{
+	width:100%; height:200px;
+}
+#login{ 
+	width:1200px; height:104px;
+	margin:auto
+}
+#float{
+	display:block;
+	width:1200px; height:104px;
+	margin:auto
+	
+}
+#logo{
+	list-style:none;
+	width:121px; height:104px;
+	float:left
+}
+.float-r{
+	list-style:none;
+	float:right;
+	margin:72px 9px 0;
+}
+.xian{
+	border:1px solid #000;
+	width:1px; height:12px;
+	background-color:#000
+}
+#nav{
+	width:100%;
+	background-color:#3C9
+}
+a {
+	color: #333;
+}
+#w-img{
+	width:120px; height:120px;
+	border:1px solid #000;
+	position:absolute;
+	right:177px; top:95px;
+	background-color:#FFF
+}
+#w-img img{ width:120px; height:120px}
+/*#nav-ul{
+	display:block;
+	width:1200px; height:70px
+}
+*/
+#nav-box{
+	width:1200px; height:70px
+}
+.kong{
+	width:1px; height:70px;
+	background-color:#FFF;
+	float:left
+}
+.nav{
+	width:198px; height:70px;
+	float:left;
+	text-align:center; vertical-align:middle; line-height:70px
+}
+.font-size{
+	font-size:24px;
+	font-weight:bold;
+	color:#FFF;
+	display:block; width:149; height:70px
+}
+.font-size:hover{
+	text-decoration:none;
+	color:#FFF;
+	background-color:#099
+}
+.p-item{
+	width:198px; height:50px;
+	 font-size:16px; color:#FFF;
+	 border-top:1px solid #FFF;
+	text-align:center; vertical-align:middle; line-height:50px;
+
+}
+#dis{
+	background-color:#3C9;
+	width:198px; margin:0px;
+	position:relative
+
+}
+.p-item:hover{ background-color:#099}
+/*----------------头结束--------------------*/
+
+#body{
+	width:100%
+}
+#slide-news{
+	width:1200px; 
+}
+#slide{
+	width:836px; height:418px;
+	overflow:hidden;
+	float:left
+}
+#img{
+	width:836px; height:418px;
+	float:left
+}
+.img{
+	width:836px; height:418px;
+	display:none;
+}
+#ctrl{
+	width:836px; height:418px;
+	
+}
+#left{
+	width:33px; height:58px;
+	background:url(../image/prev.png);
+	position:relative;
+	top:188px; right:370px;
+	cursor:pointer;
+}
+#right{
+	width:33px; height:58px;
+	background:url(../image/next.png);
+	position:relative;
+	top:125px; left:369px;
+	cursor:pointer;
+}
+#news{
+	width:343px;
+	float:right;
+}
+#title{
+	float:left
+}
+#more{
+	float:right;
+	margin-top:10px
+}
+#xian{
+	clear:both;
+	height:10px;
+	border-bottom:1px solid #CCC
+}
+#news-info li{
+	list-style:none;
+	vertical-align:middle;
+	line-height:28px;
+}
+#news-info li a{
+	color:#5F545F;
+	text-decoration:none;
+	border-bottom:1px dashed #e0e0e0
+}
+#news-info li a:hover{
+	color:#09C
+}
+
+#video{
+	float:right
+}
+#product{
+	width:1200px;
+	margin-top:20px
+}
+#p-title{
+	width:60px;
+	float:left
+}
+#p-box{
+	float:right;
+}
+#p-left{
+	width:40px; height:163px;
+	background:url(../image/left.png);
+	
+}
+#p-right{
+	width:40px; height:163px;
+	background:url(../image/right.png);
+
+}
+#p-box{
+	width:1130px; height:163px
+}
+#products{
+	width:1050px; height:163px;
+}
+.float-left{
+	float:left
+}
+.p-list li{
+	list-style:none;
+	display:block;
+	
+}
+#foot{
+	width:1200px;
+	color:#5F545F;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px
+}
+.p-list li a img{
+	width:130px; height:74px;
+	margin:10px auto 0;
+}
+.p-list li a span{
+	font-size:16px;
+	line-height:30px;
+	margin:0 10px 6px;
+	display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.p-list li a{
+	display:block;
+	color:#FFF;
+	text-decoration:none
+}
+.p-list{
+	width:192px; height:163px;
+	float:left;
+	text-align:center
+}
+.p-list li a font{
+	font-size: 13px;
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 12px;
+    background: #1faa8f;
+}
+.p-list{
+	margin-left:15px
+}
